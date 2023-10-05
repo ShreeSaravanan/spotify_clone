@@ -1,0 +1,267 @@
+
+.main {
+  display: flex;
+  height: 85vh;
+  /* width: 1728px;
+  height: 1116.5px; */
+}
+
+.left-section {
+  /* display: flex;
+  flex-direction: column; */
+  flex: 1;
+  background-color: black;
+  box-sizing: border-box;
+  width: 371.801px;
+  height: 995px;
+}
+
+.logo {
+  width: 202.576px;
+  height: 60.526px;
+  margin-left: 35.8px;
+  margin-top: 38.3px;
+}
+
+.home {
+  background-color: #282828;
+}
+
+.side-btns {
+  width: 347.097px;
+  height: 61.761px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.side-btns > img {
+  width: 29.645px;
+  height: 32.116px;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.side-btns > span {
+  color: white;
+  margin-left: 10px;
+  width: 148.226px;
+  height: 30.881px;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rec-create-playlist {
+  width: 37.057px;
+  height: 37.057px;
+  background-color: white;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.rec-liked-songs {
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 1px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.rec-your-episodes {
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 5px;
+  background: #004638;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.left-option-bottom {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+  font-family: DM;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.install {
+  margin-top: 250px;
+}
+
+.right-section {
+  flex: 4;
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+  width: 371.801px;
+  height: 995px;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.profile {
+  width: 147px;
+  height: 41px;
+  background: #000;
+}
+
+.profile > p {
+  width: 75px;
+  height: 31px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title-playlist {
+  width: auto;
+  height: 294px;
+}
+
+.good-morning {
+  width: 280px;
+  height: 56px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.playlist-1,
+.playlist-2,
+.playlist-3,
+.playlist-4 {
+  width: 362px;
+  height: 100px;
+  border-radius: 4px;
+  background: #303030;
+}
+
+.symbol {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px 0px 0px 4px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+
+.playlist-1 > p,
+.playlist-2 > p,
+.playlist-3 > p,
+.playlist-4 > p {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+}
+
+.artist-1, .artist-2, .artist-3, .artist-4, .artist-5, .artist-6 {
+  width: 251.292px;
+  height: 305.904px;
+  background-color: black;
+}
+
+.footer {
+  position: fixed;
+  background-color: rgb(24, 24, 24);
+  height: 15vh;
+  width: 100vw;
+}
+
+.play-section {
+  height: 80%;
+}
+.left {
+  flex: 1;
+}
+
+.middle {
+  flex: 2;
+  margin: 5px;
+}
+
+.right {
+  flex: 1;
+  width: 100px;
+}
+.play-controls {
+  width: 200px;
+  height: 80px;
+  margin-bottom: 8px;
+}
+
+.timer > span {
+  width: 31px;
+  height: 19px;
+  color: #c4c4c4;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.song-timer {
+  width: 511px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #535353;
+}
+
+.right {
+  flex: 1;
+}
+
+.green-bar {
+  display: flex;
+  width: 100vw;
+  height: 30px;
+  background: #1ed760;
+  justify-content: end;
+}
+.green-bar > img {
+  width: 16.2px;
+  height: 15px;
+  padding: 2.248px 1.35px 2.252px 1.35px;
+}
+.green-bar > p {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 700;
+}

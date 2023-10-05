@@ -1,0 +1,170 @@
+.main-2 {
+  height: 1080px;
+  background: linear-gradient(180deg, #90aea7 0%, #000 89.7%);
+}
+
+.left-bar {
+  width: 230px;
+  height: 1080px;
+  background-color: black;
+}
+
+.home {
+  background-color: #282828;
+}
+
+.side-btns {
+  width: 216px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.side-btns > img {
+  width: 29.645px;
+  height: 32.116px;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.side-btns > span {
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 14px;
+}
+
+.left-option-middle > p {
+  color: #b3b3b3;
+  font-family: Circular Std;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.rec-create-playlist {
+  width: 37.057px;
+  height: 37.057px;
+  background-color: white;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.rec-liked-songs {
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 1px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.left-bottom {
+  margin-top: 300px;
+}
+
+.right-bar {
+  width: 1690px;
+  height: 585px;
+}
+
+.right-section-3 {
+  margin: 50px 10px 10px 50px;
+}
+
+.rectangle-1 {
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgb(5, 5, 5);
+}
+
+.title-artist {
+  height: 54px;
+}
+
+.album {
+  flex:4;
+  text-align: center;
+}
+.date-added {
+  flex: 1;
+}
+.song-time{
+  flex: 1;
+}
+
+.song-title {
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 16px;
+}
+
+.artist,
+.album,
+.song-time > div,
+.date-added {
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 14px;
+}
+
+.footer {
+  z-index: 0;
+  position: fixed;
+  background-color: rgb(24, 24, 24);
+  width: 100vw;
+  height: 12vh;
+  bottom: 0px;
+}
+
+.play-section {
+  height: 80%;
+}
+.left {
+  flex: 1;
+}
+
+.middle {
+  flex: 2;
+  margin: 5px;
+}
+
+.right {
+  flex: 1;
+  width: 100px;
+}
+.play-controls {
+  width: 200px;
+  height: 80px;
+  margin-bottom: 8px;
+}
+
+.timer > span {
+  width: 31px;
+  height: 19px;
+  color: #c4c4c4;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;  
+}
+
+.song-timer {
+  width: 511px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #535353;
+}
+
+.right {
+  flex: 1;
+}

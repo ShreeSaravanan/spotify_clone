@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist</title>
+    <link rel="stylesheet" href="duplicate.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="main-2 d-flex">
+      <div class="left-bar">
+        <div class="logo ms-4">
+          <svg
+            class="mt-3"
+            xmlns="http://www.w3.org/2000/svg"
+            width="131"
+            height="40"
+            viewBox="0 0 131 40"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_10436_34)">
+              <path
+                d="M0.924072 20.1176C0.924072 30.9412 9.70361 39.8823 20.3315 39.8823C30.9593 39.8823 39.7389 30.9412 39.7389 20.1176C39.7389 9.29411 30.9593 0.470581 20.3315 0.470581C9.70361 0.470581 0.924072 9.29411 0.924072 20.1176ZM27.4937 29.2941C22.9884 26.4706 17.2124 25.7647 10.5123 27.2941C8.89497 27.5294 8.66393 25.1765 10.0502 24.9412C17.4435 23.1765 23.6816 24 28.7645 27.1765C30.0352 28 28.7645 30 27.4937 29.2941ZM29.4576 24C24.2592 20.7059 16.2883 19.7647 10.1657 21.6471C8.20185 22.2353 7.50873 19.1765 9.35705 18.7059C16.4038 16.5882 25.0678 17.6471 31.0749 21.4118C32.6921 22.4706 31.0749 25.0588 29.4576 24ZM9.24153 15.6471C7.27769 16.3529 6.00696 12.9412 8.20185 12.1176C15.0175 9.99999 26.5696 10.3529 33.7318 14.7059C35.6957 15.7647 33.8474 19.0588 31.768 17.8823C25.5299 14.1176 15.1331 13.7647 9.24153 15.6471ZM53.0237 26.3529C51.0599 26.3529 49.2115 25.6471 47.5943 24C47.4787 24 47.4787 24.1176 47.4787 24.1176L45.6304 26.3529C45.5149 26.4706 45.5149 26.5882 45.6304 26.7059C47.7098 28.5882 50.2512 29.5294 53.0237 29.5294C56.9514 29.5294 59.3773 27.2941 59.3773 24C59.3773 21.1765 57.6445 19.6471 53.6013 18.5882C50.2512 17.7647 49.6736 17.1765 49.6736 16C49.6736 14.8235 50.8288 14.1176 52.3306 14.1176C53.8324 14.1176 55.2186 14.7059 56.8359 15.8823C56.8359 15.8823 56.9514 16 57.0669 16C57.1824 16 57.1824 15.8823 57.1824 15.8823L58.7997 13.5294C58.9153 13.4118 58.9153 13.4118 58.7997 13.2941C56.9514 11.7647 54.7565 10.9412 52.3306 10.9412C48.7495 10.9412 46.208 13.1765 46.208 16.3529C46.208 19.7647 48.5184 20.8235 52.2151 21.7647C55.4496 22.4706 55.9117 23.1765 55.9117 24.3529C55.9117 25.6471 54.7565 26.3529 53.0237 26.3529ZM63.9981 17.2941V15.7647C63.9981 15.6471 63.8826 15.5294 63.7671 15.5294H60.7636C60.6481 15.5294 60.5325 15.6471 60.5325 15.7647V33.0588C60.5325 33.1765 60.6481 33.2941 60.7636 33.2941H63.7671C63.8826 33.2941 63.9981 33.1765 63.9981 33.0588V27.6471C65.1533 28.9412 66.4241 29.5294 68.1569 29.5294C71.2759 29.5294 74.395 27.0588 74.395 22.3529C74.395 17.6471 71.2759 15.2941 68.1569 15.2941C66.4241 15.2941 65.1533 15.8823 63.9981 17.2941ZM67.4638 26.4706C65.3844 26.4706 63.8826 24.7059 63.8826 22.3529C63.8826 20 65.3844 18.3529 67.4638 18.3529C69.5431 18.3529 70.9294 20 70.9294 22.3529C70.9294 24.7059 69.5431 26.4706 67.4638 26.4706ZM75.3191 22.4706C75.3191 26.4706 78.4382 29.5294 82.4814 29.5294C86.5246 29.5294 89.6436 26.3529 89.6436 22.3529C89.6436 18.3529 86.6401 15.2941 82.5969 15.2941C78.5537 15.2941 75.3191 18.4706 75.3191 22.4706ZM78.7847 22.3529C78.7847 20 80.2865 18.3529 82.4814 18.3529C84.6763 18.3529 86.2936 20.1176 86.2936 22.4706C86.2936 24.8235 84.7918 26.4706 82.5969 26.4706C80.402 26.4706 78.7847 24.7059 78.7847 22.3529ZM94.9576 15.5294V12.1176C94.9576 12 94.9576 11.8823 94.8421 11.8823H91.8385C91.723 11.8823 91.6075 12 91.6075 12.1176V15.5294H90.1057C89.9902 15.5294 89.8747 15.6471 89.8747 15.7647V18.3529C89.8747 18.4706 89.9902 18.5882 90.1057 18.5882H91.6075V25.4118C91.6075 28.1176 92.8782 29.5294 95.5352 29.5294C96.5749 29.5294 97.6145 29.2941 98.4232 28.8235C98.5387 28.8235 98.5387 28.7059 98.5387 28.5882V26.1176C98.5387 26 98.5387 25.8823 98.4232 25.8823H98.1921C97.6145 26.2353 96.9214 26.3529 96.3438 26.3529C95.4197 26.3529 94.9576 25.8823 94.9576 24.9412V18.5882H98.4232C98.5387 18.5882 98.6542 18.4706 98.6542 18.3529V15.7647C98.6542 15.6471 98.5387 15.5294 98.4232 15.5294H94.9576ZM109.86 15.1765C109.86 13.8823 110.322 13.4118 111.361 13.4118C111.939 13.4118 112.517 13.4118 113.094 13.6471H113.21C113.21 13.6471 113.325 13.5294 113.325 13.4118V10.9412C113.325 10.8235 113.325 10.7059 113.21 10.7059C112.632 10.4706 111.824 10.3529 110.668 10.3529C107.896 10.3529 106.51 12 106.51 14.9412V15.5294H105.008C104.892 15.5294 104.777 15.6471 104.777 15.7647V18.3529C104.777 18.4706 104.892 18.5882 105.008 18.5882H106.51V29.0588C106.51 29.1765 106.625 29.2941 106.741 29.2941H109.744C109.86 29.2941 109.86 29.1765 109.86 29.0588V18.5882H112.748L117.022 29.0588C116.56 30.1176 116.098 30.3529 115.405 30.3529C114.827 30.3529 114.249 30.2353 113.672 29.8823H113.556L113.441 30L112.401 32.2353C112.401 32.3529 112.401 32.5882 112.517 32.5882C113.556 33.1765 114.481 33.4118 115.636 33.4118C117.831 33.4118 119.101 32.3529 120.141 29.5294L125.339 15.8823V15.6471C125.339 15.5294 125.224 15.5294 125.108 15.5294H121.989C121.874 15.5294 121.874 15.6471 121.874 15.7647L118.639 24.9412L115.174 15.7647C115.174 15.6471 115.058 15.5294 114.943 15.5294H109.86V15.1765ZM100.272 15.5294C100.156 15.5294 100.04 15.6471 100.04 15.7647V29.0588C100.04 29.1765 100.156 29.2941 100.272 29.2941H103.275C103.391 29.2941 103.391 29.1765 103.391 29.0588V15.7647C103.391 15.6471 103.391 15.5294 103.275 15.5294H100.272ZM99.5784 11.6471C99.5784 12.8235 100.618 13.8823 101.773 13.8823C102.928 13.8823 103.853 12.8235 103.853 11.6471C103.853 10.4706 102.928 9.5294 101.773 9.5294C100.618 9.5294 99.5784 10.4706 99.5784 11.6471ZM127.881 19.7647C129.036 19.7647 130.076 18.8235 130.076 17.6471C130.076 16.4706 129.036 15.5294 127.881 15.5294C126.726 15.5294 125.801 16.4706 125.801 17.6471C125.801 18.8235 126.726 19.7647 127.881 19.7647ZM127.881 15.7647C128.921 15.7647 129.845 16.5882 129.845 17.6471C129.845 18.7059 128.921 19.5294 127.881 19.5294C126.841 19.5294 126.033 18.7059 126.033 17.6471C126.033 16.5882 126.841 15.7647 127.881 15.7647ZM128.343 17.8823C128.689 17.7647 128.921 17.5294 128.921 17.1765C128.921 16.7059 128.458 16.4706 127.996 16.4706H127.072V18.7059H127.534V18H127.996L128.458 18.7059H129.036L128.343 17.8823ZM127.996 16.8235C128.227 16.8235 128.458 16.9412 128.458 17.1765C128.458 17.4118 128.227 17.5294 127.996 17.5294H127.534V16.8235H127.996Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_10436_34">
+                <rect width="131" height="40" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+
+        <div class="left-option-top my-4">
+          <div class="side-btns home d-flex align-items-center">
+            <img src="./assets/fi-ss-home.png" alt="" /> <span>Home</span>
+          </div>
+          <div class="side-btns d-flex align-items-center">
+            <img src="./assets/fi-rs-search.png" alt="" /> <span>Search</span>
+          </div>
+
+          <div class="side-btns d-flex align-items-center">
+            <img src="./assets/library.png" alt="" /> <span>Library</span>
+          </div>
+        </div>
+
+        <div class="left-option-middle">
+          <p>PLAYLIST</p>
+          <div class="side-btns d-flex align-items-center">
+            <div
+              class="rec-create-playlist d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/fi-ss-plus-small.png"
+                alt="plus-logo"
+                style="width: 29.645px; height: 29.645px"
+              />
+            </div>
+            <span>Create Playlist</span>
+          </div>
+
+          <div class="side-btns d-flex align-items-center">
+            <div
+              class="rec-liked-songs d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/fi-ss-heart.png"
+                alt="heart-logo"
+                style="width: 10.746px; height: 10.746px"
+              />
+            </div>
+            <span>Liked Songs</span>
+          </div>
+        </div>
+
+        <div class="left-bottom">
+          <img src="./assets/album art.png" alt="album-art" />
+        </div>
+      </div>
+      <div class="right-bar">
+        <div class="right-section-1 d-flex align-items-center">
+          <img
+            src="./assets/스크린샷 2021-03-16 오후 4.04 2.png"
+            alt="image"
+          />
+          <div class="pop-right-now">
+            <p style="color: #fff; font-family: Circular Std; font-size: 13px">
+              PLAYLIST
+            </p>
+            <p style="color: #fff; font-family: Circular Std; font-size: 70px">
+              POP RIGHT NOW
+            </p>
+            <p style="color: #fff; font-family: Circular Std; font-size: 14px">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat.
+            </p>
+            <span
+              style="color: #fff; font-family: Circular Std; font-size: 15px"
+              >Spotify</span
+            >
+            <span
+              style="
+                color: #fff;
+                font-family: Circular Std;
+                font-size: 15px;
+                opacity: 0.7;
+              "
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="4"
+                height="4"
+                viewBox="0 0 4 4"
+                fill="none"
+              >
+                <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+              </svg>
+              860,305 likes
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="4"
+                height="4"
+                viewBox="0 0 4 4"
+                fill="none"
+              >
+                <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+              </svg>
+              100 songs, 5 hr 5 min</span
+            >
+          </div>
+        </div>
+
+        <div class="right-section-2 d-flex">
+          <svg
+            style="margin-left: 40px; margin-right: 30px"
+            xmlns="http://www.w3.org/2000/svg"
+            width="55"
+            height="55"
+            viewBox="0 0 55 55"
+            fill="none"
+          >
+            <path
+              d="M0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5Z"
+              fill="#1DB954"
+            />
+            <path d="M39 27.5L21 17V38L39 27.5Z" fill="white" />
+          </svg>
+
+          <svg
+            style="margin-right: 30px"
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="46"
+            viewBox="0 0 46 46"
+            fill="none"
+          >
+            <path
+              opacity="0.7"
+              d="M22.3027 13.4342C19.3015 10.433 14.4355 10.433 11.4342 13.4342V13.4342C8.433 16.4355 8.433 21.3015 11.4342 24.3027L22.3735 35.242C22.9957 35.8641 24.0043 35.8641 24.6265 35.242L35.5658 24.3027C38.567 21.3015 38.567 16.4355 35.5658 13.4342V13.4342C32.5645 10.433 27.6985 10.433 24.6973 13.4342L23.5 14.6315L22.3027 13.4342Z"
+              stroke="white"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="46"
+            viewBox="0 0 46 46"
+            fill="none"
+          >
+            <g opacity="0.7">
+              <circle cx="13.125" cy="23.125" r="2.125" fill="white" />
+              <circle cx="23.375" cy="23.125" r="2.125" fill="white" />
+              <circle cx="33.625" cy="23.125" r="2.125" fill="white" />
+            </g>
+          </svg>
+        </div>
+
+        <div class="right-section-3">
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="rectangle-1 d-flex align-items-center">
+            <div class="symbol d-flex align-items-center">
+              <svg
+                class="mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                  fill="white"
+                />
+              </svg>
+
+              <img
+                src="./assets/Rectangle 20 (2).png"
+                alt="image"
+                style="width: 35.615px; height: 40px"
+              />
+            </div>
+
+            <div class="title-artist m-3">
+              <p class="song-title m-0 mt-1">We’re Good</p>
+              <p class="artist m-0">Dua Lipa</p>
+            </div>
+
+            <div class="album">Future Nostalgia (The Moonlight Edition)</div>
+
+            <div class="date-added">4th Oct</div>
+
+            <div
+              class="song-time d-flex justify-content-evenly align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                fill="none"
+              >
+                <path
+                  opacity="0.7"
+                  d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <div>2:45</div>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="4"
+                viewBox="0 0 16 4"
+                fill="none"
+              >
+                <circle cx="1.9541" cy="2" r="1.5" fill="white" />
+                <circle cx="8.16504" cy="2" r="1.5" fill="white" />
+                <circle cx="14.376" cy="2" r="1.5" fill="white" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="play-section d-flex">
+        <div class="left d-flex align-items-center">
+          <img
+            src="./assets/Rectangle 9.png"
+            alt="logo"
+            style="width: 59px; height: 50px; margin: 10px;"
+          />
+
+          <div>
+            <p
+              style="
+                color: #fff;
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-bottom: 0px;
+              "
+            >
+              Hold On
+            </p>
+            <p
+              style="
+                width: 109.743px;
+                height: 19px;
+                color: #b3b3b3;
+                font-family: DM Sans;
+                font-size: 10px;
+                font-weight: 700;
+                padding-top: 0px;
+              "
+            >
+              Justin Beiber
+            </p>
+          </div>
+
+          <img
+            src="./assets/bx_bxs-heart.png"
+            alt="heart-logo"
+            style="width: 21.589px; height: 24px; margin-left: 5px"
+          />
+        </div>
+
+        <div class="middle d-flex flex-column align-items-center">
+          <div
+            class="play-controls d-flex align-items-center justify-content-around"
+          >
+            <img
+              src="./assets/raphael_shuffle.png"
+              alt="shuffle-icon"
+              style="width: 24px; height: 24px"
+            />
+            <img
+              src="./assets/bx_bx-skip-previous.png"
+              alt="previous-icon"
+              style="width: 31px; height: 31px"
+            />
+            <img
+              src="./assets/gridicons_play.png"
+              alt="play-icon"
+              style="width: 51px; height: 51px"
+            />
+            <img
+              src="./assets/bx_bx-skip-previous (1).png"
+              alt="forward-icon"
+              style="width: 31px; height: 31px"
+            />
+            <img
+              src="./assets/Group (1).png"
+              alt="repeat-icon"
+              style="width: 17.603px; height: 16.5px"
+            />
+          </div>
+          <div class="timer d-flex align-items-center">
+            <span class="me-2">0:00</span>
+            <div class="song-timer">
+              <div
+                style="
+                  background: #c4c4c4;
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 2.5px;
+                "
+              ></div>
+            </div>
+
+            <span class="ms-2">2:50</span>
+          </div>
+        </div>
+
+        <div class="right d-flex align-items-center justify-content-evenly">
+          <img
+            src="./assets/ph_microphone-stage.png"
+            alt="microphone-logo"
+            style="width: 17.185px; height: 18.915px"
+          />
+          <img
+            src="./assets/carbon_query-queue.png"
+            alt="query-icon"
+            style="width: 17.185px; height: 18.915px"
+          />
+          <img
+            src="./assets/carbon_laptop.png"
+            alt="laptop-logo"
+            style="width: 17.185px; height: 18.915px"
+          />
+          <img
+            src="./assets/Group (2).png"
+            alt="speaker-logo"
+            style="width: 17.185px; height: 18.915px"
+          />
+          <div
+            style="
+              width: 104.346px;
+              height: 5px;
+              border-radius: 2.5px;
+              background: #c4c4c4;
+            "
+          ></div>
+          <img
+            src="./assets/Group (3).png"
+            alt="speaker-logo"
+            style="width: 17.185px; height: 18.915px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
